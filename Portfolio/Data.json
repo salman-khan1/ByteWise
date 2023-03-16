@@ -1,0 +1,14 @@
+{
+    "MyProjects": [
+    {"img":"images/work-1.png","heading":"Social Media App","description":"The app connect you to the world just download it from play store","link":"https://salmansocialbook.netlify.app/"},
+    {"img":"images/work-2.png","heading":"Spotify Clone","description":"Created this clone using HTML CSS and Javascript","link":"https://salmanspotifylone.netlify.app/"},
+    {"img":"images/work-3.png","heading":"Online Shopping Store","description":"The app connect you to the world just download it from play store","link":"https://ecommerceshop-4b15c.web.app/"},
+    {"img":"images/magic1.jpg","heading":"Magic Notes","description":"The secure way to store your notes","link":"https://magicnotes-58182.web.app"}
+  ],
+  "ServiceList":[
+    {"icon":"fa-solid fa-code","heading":"Web Design","description":"I will Design, develop, and maintain custom websites that are tailored to your needs and  specifications"},
+    {"icon":"fa-sharp fa-solid fa-crop-simple","heading":"UI/UX Design","description":"I Will Design an intuitive and interactive interface: Design an intuitive and interactive <br/> user interface that is easy to navigate and use, with features such as menus, buttons, icons, and search boxes"},
+    {"icon":"fa-solid fa-globe","heading":"Web Scrapping","description":"I Will Scrap the data from any Website for you with python or any other tool"}
+
+  ]
+}

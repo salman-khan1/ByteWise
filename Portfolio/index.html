@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script  src="https://kit.fontawesome.com/45c0921880.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I am <span>Salman</span><br> From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ............about............... -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am doing graduation in Software Engineering. Currently working in web development and have a
+                        good background in the field of data science. I have a good working knowledge of React and have
+                        been actively looking for an internship.
+
+                        I am a self-motivated individual who is passionate about leveraging technology to solve problems
+                        and create new solutions. I am highly organized and detail-oriented and I have excellent
+                        communication skills. My programming experience also includes working with Java, Python, React,
+                        C, Javascript, and HTML/CSS/Bootstrap.
+
+                        I am also experienced in data analysis, machine learning, and database management. In my free
+                        time, I have created numerous projects that involve web design, and data visualization. I am
+                        also familiar with both SQL and NoSQL databases.
+
+                        I am always looking to improve my skills and stay up to date with the latest trends in software
+                        engineering. I am a hard worker and I am eager to begin my career in the field. I am confident
+                        that I can make a meaningful contribution to any team I join.</p>
+
+                    <div class="tab-titles ">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front End </span><br>Designing Web interfaces </li>
+                            <li><span>Web Development</span><br>Web app Development </li>
+                            <li><span>Web Scrapping</span><br>Scrapping Data from Web </li>
+                            <li><span>Python Programming</span><br>A good Programming Skills in Python & JS </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current </span><br>Computer Science Teacher at Standard Education System
+                            </li>
+                            <!-- <li><span>2023 - xyz</span><br>Front End Developer at xyz tech</li>
+                            <li><span>2024 - abc</span><br>Machine Learning Developer at AI tech</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Software Engineering </span><br>Sindh Madarsat-ul-Islam University </li>
+                            <li><span>Intemediate</span><br>Board of intermediate Karachi </li>
+                            <li><span>Matriculation</span><br>Secondary Board Karachi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ...........section................. -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list" id="service-ist">
+                <!-- <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I will Design, develop, and maintain custom websites that are tailored to your needs and
+                        specifications</p>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I Will Design an intuitive and interactive interface: Design an intuitive and interactive user interface
+                        that is easy to navigate and use, with features such as menus, buttons, icons, and search boxes.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Scrapping</h2>
+                    <p>I Will Scrap the data from any Website for you with python or any other tool </p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- .......Portfolio.......... -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list" id="work-list">
+                <!-- <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connect you to the world just download it from play store</p>
+                        <a href="https://salmansocialbook.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Spotify Clone</h3>
+                        <p>Created this clone using HTML CSS and Javascript</p>
+                        <a href="https://salmanspotifylone.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping Store</h3>
+                        <p>The app connect you to the world just download it from play store</p>
+                        <a href="https://ecommerceshop-4b15c.web.app/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div> -->
+            </div>
+            <!-- <a href="" class="btn">See More...</a> -->
+        </div>
+    </div>
+    <!-- ........Contact........ -->
+    <div id="contact">
+
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> skhan231714@gmail.com <p class="email2">myselfsalman2000@gmail.com</p></p>
+                    
+                    <p><i class="fa-solid fa-phone"></i><i class="fa-brands fa-whatsapp"></i><i
+                            class="fa-brands fa-telegram"></i>+923322320191</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/people/Salman-Khan/100007262290354/?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/salman-khan-265687224" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/salman-khan1" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/Salman_khan_0" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/i_salman_khan_1?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="SalmanCV.pdf" target="_blank" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Salman Khan.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
