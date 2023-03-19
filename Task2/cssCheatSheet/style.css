@@ -1,0 +1,137 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+  font: normal Arial, Helvetica, sans-serif 16px;
+  line-height: 2em;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+.box-1 {
+  background-color: #333333;
+  color: #fff;
+  border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+  border-width: 3px;
+  border-bottom-width: 10px;
+  border-top-style: dotted;
+  border: 5px red solid;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  /* Same as above */
+  /* padding: 20px;
+} */
+/* .box-1 h1{
+font-family: Tahoma;
+font-weight:800;
+font-style:italic;
+text-decoration:underline;
+text-transform: uppercase;
+Letter-spacing: 0.2em;
+word-spacing: 1em;
+}
+p {
+  margin-top:5px;
+    margin-bottom:5px;
+    margin-right: 10px;
+    margin-left:10px;
+  margin: 5px 10px 5px 10px;
+} */ 
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333333;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #0066cc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003399;
+}
+/* Style the form container */
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the form fields */
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the label */
+  .form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style the input */
+  .form-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the button */
+  .form-field button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
